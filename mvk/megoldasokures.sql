@@ -85,15 +85,8 @@ FROM `viszonylatok`
 
 14. feladat:
 
-COUNT(CASE WHEN viszonylatadatok.jszamtel>viszonylatadatok.jszamnyar OR viszonylatadatok.jszamtel>viszonylatadatok.jszamnyar THEN 1 ELSE 0 END)
+SELECT COUNT(CASE WHEN viszonylatadatok.jszamtel>viszonylatadatok.jszamnyar 
+OR viszonylatadatok.jszamtel>viszonylatadatok.jszamnyar THEN 1 ELSE 0 END) AS telnyarkulonbseg
+FROM viszonylatadatok;
 
 15. feladat:
-
-
-
-
-
-
-
-
-
