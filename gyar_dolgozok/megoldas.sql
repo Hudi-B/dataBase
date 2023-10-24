@@ -24,6 +24,8 @@ WHERE(SELECT `auto`.`ajtok_szama` FROM `auto` WHERE( `bank`.`szamlaszam` LIKE `a
 
 --5
 
+--Listazza ki azon dolgozok adatait akik gyartas utan egy evvel vettek autot
+
 SELECT *
 FROM `bank`
 WHERE(SELECT * FROM `auto` WHERE DATEDIFF(year, eladas_datuma, gyartas_datuma) LIKE 1)
