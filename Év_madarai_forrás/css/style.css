@@ -80,7 +80,7 @@ tr td:first-child {
 }
 
 #taplalek {
-	list-style-image: url("/img/madar.png");
+	list-style-image: url("../img/madar.png");	
 	margin-left: 25px;
 }
 
