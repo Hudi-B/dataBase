@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body {
+	font-family: Rubik;
+	background-color: #cccccc;
+    background-image: radial-gradient(rgb(9, 101, 16), rgb(175, 202, 3));
+}
+
+#fejlec {
+	width: 100%;
+	height: 100%;
+}
+
+#felirat {
+	top: 40px;
+    left: 22vh;
+    font-size: 5vw;
+    position: absolute;
+    text-align: left;
+	text-shadow: 0px 2px 5px rgba(255, 213, 130, 1);
+    max-width: 100%;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: rgb(13, 1, 81);
+}
+
+nav li {
+	border-right: 3px dotted orange;
+	padding: 0 15px;
+}
+
+nav li:last-child {
+	border-right: none;
+}
+
+#főcím {
+	text-shadow: 5px 5px 10px rgb(255, 128, 0);
+}
+
+h2{
+	color: black;
+	text-shadow: 5px 5px 10px rgb(255, 128, 0);
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 2.5em;
+}
+
+ol li {
+	margin-left: 25px;
+}
+
+.hobbi{
+	background-color: #fff7ad;
+	border: 2px solid black;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+tr td:first-child {
+	font-weight: bold;
+}
+
+.lablec {
+	background-color: rgb(255,242,207);
+}
+
+.lablec a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.lablec a:hover {
+	text-transform: uppercase;
+}
+
+.navbar {
+	font-variant: small-caps;
+	font-size: 120%;
+	margin-left: 0;
+}
+
+#taplalek {
+	list-style-image: url("/img/madar.png");
+	margin-left: 25px;
+}
+
+p{
+	text-align: justify;
+}
